@@ -1,6 +1,6 @@
 {
   "name": "generic-rk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An npm package that assists in using the Runge-Kutta propagation method for simulation objects.",
   "main": "build/index.js",
   "scripts": {
