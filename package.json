@@ -1,0 +1,27 @@
+{
+  "name": "generic-rk",
+  "version": "1.0.0",
+  "description": "An npm package that assists in using the Runge-Kutta propagation method for simulation objects.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trippalamb/Generic-RK.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "javascript",
+    "simulation",
+    "runge-kutta",
+    "rk"
+  ],
+  "author": "Tripp Lamb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trippalamb/Generic-RK/issues"
+  },
+  "homepage": "https://github.com/trippalamb/Generic-RK#readme"
+}
