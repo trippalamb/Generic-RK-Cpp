@@ -179,7 +179,7 @@ Now I will walk you through running the pendulum model and performing a simple t
 var p0 = -200.0; //set the initial position
 var v0 = -67.0; //set the initial velocity
 var startTime = 0.0; //set the initial time
-var endTime = 20.0; //set the end time
+var endTime = 10.0; //set the end time
 
 var e = new Pendulum(startTime, p0, v0); //construct your pendulum entity
 e.timestep(endTime); //move pendulum entity forward to the end time
