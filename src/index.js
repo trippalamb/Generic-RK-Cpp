@@ -659,28 +659,28 @@ class ODESystem{
 
 }
 
-//if (typeof (module) !== "undefined") {
-//    module.exports = {
-//        Pointer: Pointer,
-//        Methods: Methods,
-//        ODE: ODE,
-//        ODESystem: ODESystem,
-//        RK: GenRK
-//    }
-//}
-//else {
-//    var RK = {
-//        Pointer: Pointer,
-//        Methods: Methods,
-//        ODE: ODE,
-//        ODESystem: ODESystem,
-//        RK: GenRK
-//    }
-//}
-export default {
+if (typeof (module) !== "undefined") {
+    module.exports = {
         Pointer: Pointer,
         Methods: Methods,
         ODE: ODE,
         ODESystem: ODESystem,
         RK: GenRK
     }
+}
+else {
+    var RK = {
+        Pointer: Pointer,
+        Methods: Methods,
+        ODE: ODE,
+        ODESystem: ODESystem,
+        RK: GenRK
+    }
+}
+//export default {
+//        Pointer: Pointer,
+//        Methods: Methods,
+//        ODE: ODE,
+//        ODESystem: ODESystem,
+//        RK: GenRK
+//    }
