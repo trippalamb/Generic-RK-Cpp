@@ -332,7 +332,7 @@ var RK = {};
             }
         
             constantsInit_midpoint(){
-                this.stepTotal = 1;
+                this.stepTotal = 2;
                 this.embedded = false;
         
                 for (let i = 0; i < this.stepTotal; i++) {
@@ -356,7 +356,7 @@ var RK = {};
             }
         
             constantsInit_classic4th(){
-                this.stepTotal = 1;
+                this.stepTotal = 4;
                 this.embedded = false;
         
                 for (let i = 0; i < this.stepTotal; i++) {
