@@ -1,2 +1,4 @@
 .vs/ 
 lib/
+Debug/
+Release/
